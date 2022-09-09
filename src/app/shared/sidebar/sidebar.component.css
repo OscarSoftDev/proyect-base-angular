@@ -1,0 +1,15 @@
+.fila{
+    border: 0px ;
+   /* background-color: rgb(90, 91, 90);*/
+    margin-bottom: 15px;
+    height: 600px;  
+    padding: 0px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 10px;
+    
+}
+.tamaño-fila{
+    height: 650px;  
+    border: 3px solid;
+}
