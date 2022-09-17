@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { PropertyComponent } from './property/property.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     SidebarComponent,
     NavbarComponent,
     TemplateComponent,
-    NopagefoundComponent
+    NopagefoundComponent,
+    PropertyComponent
   ],
   imports: [
     BrowserModule,
