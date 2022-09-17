@@ -8,7 +8,6 @@ const routes: Routes = [
   /*{ path: 'ingreso', component: IngresoComponent},
   { path: 'informacion/:cliente', component: InformacionBasicaComponent},*/
   { path: 'property', component:PropertyComponent},
-  { path: '', component:TemplateComponent},
   { path: '**', pathMatch: 'full', component :NopagefoundComponent}
 
 ];

@@ -8,7 +8,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { TemplateComponent } from './shared/template/template.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { PropertyComponent } from './property/property.component';
 
@@ -26,7 +26,6 @@ import { PropertyComponent } from './property/property.component';
     AppRoutingModule,
     RouterModule,
     ReactiveFormsModule,
-    HttpClientModule,
     FormsModule
   ],
   providers: [],
