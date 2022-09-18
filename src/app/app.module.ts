@@ -11,13 +11,11 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { PropertyComponent } from './property/property.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent,
-    NavbarComponent,
-    TemplateComponent,
     NopagefoundComponent,
     PropertyComponent
   ],
@@ -26,7 +24,9 @@ import { PropertyComponent } from './property/property.component';
     AppRoutingModule,
     RouterModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    SharedModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
