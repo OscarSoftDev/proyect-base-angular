@@ -1,1 +1,43 @@
-<p>property works!</p>
+<div class="container-fluid bg-secondary rounded-bottom tamanosidebar">
+    <div class="row">
+        <form [formGroup]="formProperty" (ngSubmit)="sendProperty()" class="row g-3 m-3">
+            <div class="col-md-3">
+                <label for="inputnumber" class="form-label">Texto</label>
+                <input type="text" formControlName="texto" class="form-control"  id="inputTexto" placeholder="Digite texto">
+            </div>
+            <div class="col-md-3">
+                <label for="inputdate" class="form-label">Fecha</label>
+                <input type="date" formControlName="fecha" class="form-control"  id="inputPassword4" >
+            </div>
+            <div class="w-10"></div>
+            <div class="col-3">
+                <label for="inputnumber" class="form-label">Pesos</label>
+                <input type="number" formControlName="pesos" class="form-control"  id="inputPesos" placeholder="987999">
+            </div>
+            <div class="col-3">
+                <label for="inputnumbero" class="form-label">Numero</label>
+                <input type="number" formControlName="numero" class="form-control"  id="inputPesos" placeholder="987999">
+            </div>
+            <div class="w-10"></div>
+           <!-- <div class="col-6">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="boolean" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>-->
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" formControlName="check" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" click="sendProperty()" class="btn btn-primary">Guardar</button>
+            </div>
+        </form>
+    </div>
+</div>
